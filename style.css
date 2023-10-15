@@ -1,0 +1,592 @@
+
+
+#heading {
+    width: 80vw;
+    margin: auto;
+
+}
+
+.nav>ul {
+    display: flex;
+
+}
+
+.nav>ul>li {
+    color: var(--food-delivery-pg, #212244);
+    list-style-type: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.nav>ul>li>a {
+    text-decoration: none;
+    padding-inline: 10px;
+    color: var(--food-delivery-pg, #212244);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.search1 {
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #f2f2f2;
+    padding-inline: 10px;
+
+
+}
+
+.search1>input {
+    width: 200px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    border-right: 1px solid gray;
+}
+
+.button {
+    background-color: lightsalmon;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.butt {
+    padding-inline: 10px;
+}
+
+.box1 {
+    width: 450px;
+}
+
+.box1>img {
+    width: 20px;
+    height: 20px;
+    transform: rotate(34.494deg);
+
+}
+
+.box1>h1 {
+    color: #212244;
+    font-family: Poppins;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px;
+    /* 116.667% */
+}
+
+#main1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#main2 {
+    width: 50%;
+    height: 650px;
+
+}
+
+.box1>button {
+    color: var(--food-delivery-white-grey, #F6F6F6);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.18px;
+    width: 174px;
+    height: 60px;
+
+    border-radius: 16px;
+    background: #F94A3D;
+    border: none;
+}
+
+.door {
+    color: var(--food-delivery-orange-color, #F94A3D);
+    font-family: Poppins;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px;
+}
+
+.box1>div {
+
+    color: var(--food-delivery-orange-color, #F94A3D);
+    font-size: 15px;
+    font-weight: 500;
+    width: fit-content;
+    height: 40px;
+    border-radius: 23px;
+    background: #FDECEC;
+
+    align-items: center;
+    display: flex;
+    padding: 5px 0px 5px 5px;
+
+}
+
+.box1>p {
+    width: 350px;
+    color: var(--food-delivery-p, #69697B);
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.box1>div>img {
+    border-radius: 23px;
+    border: 1px solid #FDECEC;
+    background: #FFF;
+    justify-content: end;
+    width: 38px;
+    height: 38px;
+    flex-shrink: 0;
+}
+
+#box4 {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    margin-top: -20px;
+}
+
+.boxx1 {
+    width: 250px;
+    height: 300px;
+    flex-shrink: 0;
+}
+
+.boxx1>h1 {
+
+    color: var(--food-delivery-pg, #212244);
+    font-size: 40px;
+    line-height: 45px;
+    /* 120.833% */
+}
+
+.boxx1>p {
+    color: #69697B;
+    font-size: 18px;
+
+    line-height: 25px;
+    /* 172.222% */
+}
+
+.boxx2 {
+    width: 200px;
+    height: 250px;
+    flex-shrink: 0;
+    padding: 20px 20px;
+    border-radius: 20px;
+    border-bottom: 1px solid gray;
+
+}
+
+.boxx2>img {
+    width: 150px;
+    height: 100px;
+    flex-shrink: 0;
+
+}
+
+.boxx2>h2 {
+    color: #212244;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+
+    line-height: 30px;
+    /* 133.333% */
+    padding: 20px 20px 20px 20px;
+}
+
+.boxx3 {
+    display: flex;
+    padding: 50px;
+    border-radius: 20px;
+    border: 1px solid rgba(190, 190, 187, 0);
+    border-bottom: 1px solid pink;
+    background: #FFF;
+
+}
+
+.card3 {
+    width: 200px;
+    height: 200px;
+}
+
+.card3>img {
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+}
+
+.card3>h2 {
+    color: #212244;
+    font-family: Poppins;
+    font-size: 25px;
+    width: 160px;
+    line-height: 30px;
+    /* 133.333% */
+}
+
+.boxx4 {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border-bottom: 1px solid yellowgreen;
+    margin-top: 70px;
+}
+
+.card4>img {
+    width: 100px;
+    height: 80px;
+    flex-shrink: 0;
+}
+
+#Receipe {
+    margin-top: 50px;
+    width: 80vw;
+    margin: auto;
+}
+
+#Receipe>h1 {
+    text-align: center;
+    color: #212244;
+    font-size: 48px;
+    font-weight: 600;
+
+}
+
+.items1>ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.items1>ul>li {
+    list-style-type: none;
+    padding-inline: 25px;
+    color: #F94A3D;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.items1>ul>li:hover {
+    border-bottom: 1px solid black;
+}
+
+#itembox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70vw;
+    margin: auto;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.ibox1 {
+    display: flex;
+    justify-content: center;
+
+    background: linear-gradient(180deg, white 10%, yellow);
+    width: 300px;
+    height: 366px;
+
+
+}
+
+.new {
+    display: inline;
+    align-items: center;
+    border-bottom: 2px solid yellow;
+    padding: 20px;
+    justify-content: center;
+}
+
+.new>img {
+    width: 170px;
+    height: 170px;
+    flex-shrink: 0;
+}
+
+.new>div>img {
+    margin-top: 100x;
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 10px;
+    width: 80px;
+    height: 12px;
+    flex-shrink: 0;
+}
+
+.new>div>h4 {
+    color: var(--food-delivery-pg, #212244);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.new>div>p {
+    color: #69697B;
+    text-align: center;
+    font-size: 20px;
+
+    font-weight: 300;
+    line-height: 10px;
+    /* 100% */
+}
+
+.new>div>p>span {
+    color: var(--food-delivery-orange-color, #F94A3D);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 10px;
+}
+
+.new>div>button {
+    width: 100px;
+    height: 35px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1.5px solid var(--food-delivery-orange-color, #F94A3D);
+    margin-left: 35px;
+    color: white;
+    text-align: right;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 10px;
+    background: #F94A3D;
+}
+
+#testi {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    background-color: #f2f2f2;
+}
+
+#Review {
+    margin: 80px;
+}
+
+.r1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 300px;
+    height: 100px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: pink;
+    padding-inline: 40px;
+}
+
+.r2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    height: 100px;
+    padding-inline: 40px;
+    background-color: aquamarine;
+    border-radius: 20px;
+    border: 2px solid white;
+
+}
+
+.r2>div>h3 {
+    color: #212244;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.r2>div>p {
+    color: #69697B;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 300;
+
+}
+
+.r1>div>h3 {
+    color: #212244;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.r1>div>p {
+    color: #69697B;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+#Review {
+    border-right: 2px solid gray;
+    padding-right: 30px;
+    border-top-color: #F94A3D;
+    height: 400px;
+
+}
+#Review:hover{
+    border-right: 2px solid #F94A3D;
+}
+
+#Review1 {
+    width: 500px;
+    padding-inline: 70px;
+    padding-top: 50px;
+}
+
+#Review1>h1 {
+    width: 400px;
+    color: #212244;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0.96px;
+}
+
+#Review1>h1>span {
+    color: #F94A3D;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0.96px;
+}
+
+.cust {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cust>div {
+    border-left: 3px solid red;
+    height: 56px;
+    padding-inline: 15px;
+}
+
+.cust>div>h3 {
+    color: #212244;
+    font-family: Poppins;
+    font-size: 20px;
+    margin-top: -5px;
+
+}
+
+.cust>div>p {
+    color: #69697B;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+
+#Review1>p {
+    color: #69697B;
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 25px;
+    border-top: 0.5px solid rgb(153, 92, 32);
+    margin-top: 20px;
+    padding-top: 25px;
+}
+#download{
+    background: #FFF;
+    width: 80vw;
+    margin: auto;
+}
+.app>img{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+   padding-inline: 100px;
+}
+.app{
+    margin:100px;
+}
+#footer{
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -50px;
+    height: 350px;
+    padding-inline: 60px;
+    background: var(--food-delivery-gradient-bg, linear-gradient(285deg, #FDF0F3 2.04%, rgba(255, 253, 242, 0.50) 50.97%, #FDEEF3 100.85%));
+}
+.info{
+    width: 230px;
+}
+.info>img{
+    height: 40px;
+    width: 180px;
+}
+.info>p{
+    color: var(--food-delivery-p, #69697B);
+    
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px; /* 175% */
+    letter-spacing: -0.16px; 
+}
+.detail>h3{
+    color: #2E2E2E;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 111.111% */
+    letter-spacing: -0.18px; 
+    margin-bottom: 40px;
+}
+.detail>p{
+    color: var(--food-delivery-p, #69697B);
+    font-family: Poppins;
+    font-size: 15px;
+   
+    font-weight: 400;
+    line-height: 35px; /* 218.75% */ 
+}
